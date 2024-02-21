@@ -2,7 +2,7 @@ body{
     background-image: linear-gradient(rgb(8, 0, 16),rgb(14,17,22), #030637);
     margin: 0;
 }
-
+/*Beginning of header css*/
 .header{
     display: flex;
     background-color: transparent;
@@ -39,7 +39,7 @@ a{
     text-decoration: none;
     color: #f9faf8;
 }
-
+/*End of Header css */
 .home-image{
     width: 60vw;
 
@@ -110,7 +110,7 @@ align-items: center;
 margin: 100px;
 }
 
-button{
+.button{
     width: 300px;
     height: 100px;
     border-radius: 27px;
@@ -119,6 +119,10 @@ button{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #201658;
 }
 
 .footer{
